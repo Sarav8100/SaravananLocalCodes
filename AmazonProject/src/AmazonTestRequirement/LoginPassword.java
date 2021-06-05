@@ -10,6 +10,7 @@ public class LoginPassword {
 		
 		WebDriver driver = new ChromeDriver();
 		
+		
 		System.setProperty("webdriver.chrome.driver", "C://Users//Prabhakaran//Desktop//Chrome//chromedriver.exe");
 		
 		driver.get("https://amazon.on");
