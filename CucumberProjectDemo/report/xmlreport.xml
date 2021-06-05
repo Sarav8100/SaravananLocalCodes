@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="7" time="0">
+    <testcase classname="This is the login feature for Orange HRM" name="This is login scenario" time="0">
+        <system-out><![CDATA[Given Proceed to login page.................................................skipped
+When users enters "Admin" and "admin123"....................................skipped
+And clicked button..........................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="This is the login feature for Orange HRM" name="This is login scenario 2" time="0">
+        <system-out><![CDATA[Given Proceed to login page.................................................skipped
+When users enters "Admin" and "admin13".....................................skipped
+And clicked button..........................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="This is the login feature for Orange HRM" name="This is login scenario" time="0">
+        <system-out><![CDATA[Given Go to login page......................................................skipped
+When enter the below credentials............................................skipped
+And click login button......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="This is the login feature for Orange HRM" name="This is login scenario" time="0">
+        <system-out><![CDATA[Given You are on login page.................................................skipped
+When You enter the below credentials........................................skipped
+And click the login button..................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="This feature file is to explaain expressions" name="This is an expression scenario" time="0">
+        <skipped><![CDATA[Given I have 1 laptop.......................................................skipped
+Given I have 7.5 CGPA.......................................................skipped
+Given "Arya" is elder to "Agni" and "Riya"..................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="This is the login feature for Orange HRM" name="This is login scenario" time="0">
+        <system-out><![CDATA[Given user is on the login page.............................................skipped
+When the user enters the valid credentials "Admin" and "admin123"...........skipped
+And clicks the login button.................................................skipped
+Then the user should see the home page......................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="This is to test google search" name="Google search scenario" time="0">
+        <system-out><![CDATA[Given user is entering google.co.in.........................................skipped
+When user is typing the search term	"Saravanan".............................skipped
+And enters the return key...................................................skipped
+Then the user should see the search results.................................skipped
+]]></system-out>
+    </testcase>
+</testsuite>

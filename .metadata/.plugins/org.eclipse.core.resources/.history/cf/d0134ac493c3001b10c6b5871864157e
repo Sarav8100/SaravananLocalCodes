@@ -1,0 +1,46 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+
+import com.sun.tools.javac.code.Attribute.Array;
+
+
+
+public class InterviewSessions {
+
+	public static void main(String[] args) {
+
+		//1. string s1 = SeleniumValues and Find the number of ‘e’ is in Selenium without using In build functions or for loops
+		String s1 = "Selenium";
+		String[] arr = s1.split(("e"));
+		for(String w : arr) {
+			System.out.print(w);
+			
+			
+		}
+		//2. There are two list and List a & List b and Need unique element in compare with these two list
+		//All the duplicates should remove, Want to retain the values and remove the duplicate values
+
+		ArrayList listOne = new ArrayList(Arrays.asList("a", "b","c","d","f"));
+		ArrayList listTwo = new ArrayList(Arrays.asList("a", "b","c","d","e"));
+			
+		Collections.sort(listOne);
+		Collections.sort(listTwo);
+		System.out.println("--------------");
+		boolean isEqual = listOne.equals((listTwo));
+		System.out.println(isEqual);
+		
+		//Compare two arraylist - find commom elements
+		ArrayList listOneValue = new ArrayList(Arrays.asList("a", "b","c","d","f").);
+		ArrayList listtwoValue = new ArrayList();
+		
+		listOneValue.retainAll(listOneValue);
+		listOneValue.retainAll(listOneValue);
+		
+		
+		}
+
+	}
+
+

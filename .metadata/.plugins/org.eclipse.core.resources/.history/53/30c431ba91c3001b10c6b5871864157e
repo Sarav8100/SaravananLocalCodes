@@ -1,0 +1,29 @@
+package Collections;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class WrapperClass {
+	
+	
+		public static void main(String[] args) {
+			
+		int var = 10;
+		Integer obj = new Integer(var);  //Wrapping --->Autoboxing
+		
+		System.out.println(obj);
+		
+		int i = obj;  //Wrapping ----> Unboxing
+		
+		String s1 = "Selenium";
+		String[] arr = s1.split(("e"));
+		for(String w : arr) {
+			System.out.print(w);
+		}
+		
+		ArrayList listOne = new ArrayList(Arrays.asList("a", "b","c","d"));
+		
+			
+		}
+
+}

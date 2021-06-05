@@ -1,0 +1,24 @@
+package Collections;
+
+public class WrapperClass {
+	
+	
+		public static void main(String[] args) {
+			
+		int var = 10;
+		Integer obj = new Integer(var);  //Wrapping --->Autoboxing
+		
+		System.out.println(obj);
+		
+		int i = obj;  //Wrapping ----> Unboxing
+		
+		String s1 = "Selenium";
+		s1.split(("e"));
+		for(String w : arr) {
+			System.out.print(w);
+		}
+		
+			
+		}
+
+}
